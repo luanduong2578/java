@@ -1,0 +1,9 @@
+package java_35_Quan_ly_sach;
+
+public class test {
+	public static void main(String[] args) {
+		NgaySinh ngaysinh1 = new NgaySinh(01, 02, 2022);
+		NgaySinh ngaysinh2 = new NgaySinh(02, 03, 2022);
+		NgaySinh ngaysinh2 = new NgaySinh(15, 05, 2015);
+	}
+}

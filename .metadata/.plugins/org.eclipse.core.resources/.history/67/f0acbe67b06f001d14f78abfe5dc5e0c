@@ -1,0 +1,8 @@
+package java_32_GET_SET;
+
+public class test {
+public static void main(String[] args) {
+	MyDate md = new MyDate(31, 01, 2022);
+	System.out.println("Day = " + md.getDay());
+}
+}

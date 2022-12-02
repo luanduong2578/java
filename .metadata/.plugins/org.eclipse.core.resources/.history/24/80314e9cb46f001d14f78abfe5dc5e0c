@@ -1,0 +1,22 @@
+package java_32_GET_SET;
+
+public class test {
+	
+	public static void main(String[] args) {
+		MyDate md = new MyDate(25, 01, 2022);
+		System.out.println("Day = " + md.getDay());
+		System.out.println("Month = " + md.getMonth());
+		System.out.println("Year = " + md.getYear());
+		
+		md.setDay(50);
+		md.setMonth(10);
+		md.setYear(2022);
+		
+		System.out.println("------------------");
+		System.out.println("Day = " + md.getDay());
+		System.out.println("Month = " + md.getMonth());
+		System.out.println("Year = " + md.getYear());
+	}
+	
+	
+}

@@ -1,0 +1,23 @@
+package java_26_try_catch;
+
+import java.util.Scanner;
+
+public class try_catch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Nhap so tu nhien: ");
+		Scanner sc = new Scanner(System.in);
+		int x = 0;
+		
+		try {
+			x = sc.nextInt();
+		} catch (Exception e) {
+			System.out.println("Khong phai so tu nhien");
+		}
+		
+		System.out.println("so vua nhap la: " + x);
+		
+	}
+
+}
